@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Matkorgen Online</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produkter">Produkter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#erbjudabde">Erbjudande</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Om oss</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-warning btn-sm ms-ls-2" href=contact.html>Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <p class="text-uppercase fw-semibold hero-kicker mv-2">Snabb vardagshandel online</p>
+                    <h1 class="display-5 fw-bold mb-3">Handla mat hemifrån på några minuter</h1>
+                    <p class="lead mb-4">
+                        Välj varor, filtrera efter kategori och se totalsumman direkt i kundvagnen.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#produkter" class="btn btn-success btn-lg>Börja handla"></a>
+                        <a href="contact.html" class="btn btn-outline-light btn-lg">Fråga oss</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="hero-card p-4 shadow-lg">
+                        <h2 class="h5 mb-3">Dagens snabba översikt</h2>
+                        <div class="d-flex justify-centent-between py-2 border-bottom">
+                            <span>Produkter i sortimentet</span>
+                            <strong id="productCountLabel">0</strong>
+                        </div>
+                        <div class="d-flex justify-centent-between py-2 border-bottom">
+                            <span>Varor i kundvagnen</span>
+                            <strong id=cartCountLabel">0</strong>
+                        </div>
+                        <div class="d-flex justify-centent-between py-2">
+                            <span>Totalsumma</span>
+                            <strong id="cartTotalLabel">0 kr</strong>
+                        </div>
+                        <small class="text-muted d-block mt-2">Tips: Klicka på "Lägg i kundvagn" för att testa interaktionen</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+
+</body>
+</html>
